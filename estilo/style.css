@@ -6,7 +6,9 @@
     src: url('../fontes/idroid.otf')format(opentype);
     font-weight: normal;
 }
-
+@media {
+    
+}
 * {
     margin: 0px;
     padding: 0px;
@@ -91,8 +93,8 @@ nav ul {
 }
 main {
     background-color: var(--cor-branca);
-    min-width: 300px;
     max-width: 1000px;
+    width: 100%;
     margin: auto;
     margin-bottom: 30px;
     padding: 15px;
@@ -159,7 +161,7 @@ main .pequena {
 div.video {
     background-color: var(--cor5);
     margin-bottom: 30px;
-    margin: 0px -20px 30px -20px;
+    margin: 0;
     padding:20px;
     padding-bottom: 57%;
     position: relative;
