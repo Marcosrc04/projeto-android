@@ -46,7 +46,7 @@ header {
 header>h1 {
     color: var(--cor-branca);
     font-family: var(--fonte-destaque);
-    font-size: 3em;
+    font-size: 2em;
     margin-bottom: 20px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.473);
     font-weight: normal;
@@ -160,8 +160,7 @@ main .pequena {
 
 div.video {
     background-color: var(--cor5);
-    margin-bottom: 30px;
-    margin: 0;
+    margin-bottom: 20px;
     padding: 20px;
     padding-bottom: 57%;
     position: relative;
